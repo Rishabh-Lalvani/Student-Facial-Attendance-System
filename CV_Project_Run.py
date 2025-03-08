@@ -7,8 +7,9 @@ from sklearn import neighbors
 import pandas as pd
 from datetime import datetime
 
-IMAGE_FOLDER = "C:/Users/Rishabh/Desktop/Goofy Ahh python/Students"  
-EXCEL_FILE = "C:/Users/Rishabh/Desktop/Goofy Ahh python/Test Run 1.xlsx"
+#Note: Both of these files must be in the same python folder of your vscode folder
+IMAGE_FOLDER = "Enter your file path here"  
+EXCEL_FILE = "Enter your excel file path here"
 
 # Load images and create training data
 def load_images_from_folder(folder):
